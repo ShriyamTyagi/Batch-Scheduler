@@ -7,3 +7,11 @@ https://scheduler-slanski.herokuapp.com/
 #endpoints: 
  /teacher
  /schedule
+ 
+ #DB Design
+ 
+   Schedules         Teachers
+   >teacher_id ----> >id
+   >id               >name
+   >starttime
+   >endtime
