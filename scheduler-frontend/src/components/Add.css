@@ -1,0 +1,72 @@
+
+  
+  h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  
+  select,
+  input[type="date"],
+  input[type="time"] {
+    margin-top: 1em;
+    padding: 1em 2em;
+    font-size: 1rem;
+    color: #757575;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.7em 2em;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #F31212;
+  }
+  
+  .batch-crud{
+    width: 100vw;
+    height: 100vh;
+    background-color: #DBE6F6;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .batch-crud-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+  
+  .add-batch-form label {
+    display: block;
+  }
+  
+  .add-batch-form > * {
+    margin-bottom: 1em;
+  }
+  
+  .add-batch-btn {
+    font-size: 16px;
+    float: right;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .input_labels{
+      font-size: 20px;
+  }
