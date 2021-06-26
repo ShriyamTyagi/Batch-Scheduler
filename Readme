@@ -1,2 +1,9 @@
 # Site is live at
 https://slanski-scheduler.netlify.app/
+
+#Backend-API
+https://scheduler-slanski.herokuapp.com/
+
+#endpoints: 
+ /teacher
+ /schedule
